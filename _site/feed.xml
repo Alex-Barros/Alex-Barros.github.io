@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Bugiganga's Blog</title>
+		<description>Stylish Jekyll Theme</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Genius</title>
+				<description>&lt;h3 id=&quot;introdução&quot;&gt;&lt;strong&gt;Introdução&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;Olá!&lt;/p&gt;
+
+&lt;p&gt;Esse trabalho foi feito para a diciplina de Sistemas de Tempo Real do curso de Engenharia da Computação na UFRN. 
+Eu irei dividi-lo em 3 partes, mostrando passo a passo os procedimentos.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Montangem&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Desenvolvimento do codigo&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Funcionamento do trabalho final&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;1-montagem&quot;&gt;&lt;strong&gt;1. Montagem:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;O objetivo desse trabalho é fazer um brinquedo similar ao famoso &lt;a href=&quot;https://www.estrela.com.br/genius/p&quot;&gt;Genius&lt;/a&gt;,
+onde o desafio é pensar rapido e repetir a sequencia de luzes. Ele possui 2 niveis de dificuldade.
+O Brinquedo deve ser feito com uso da placa &lt;a href=&quot;http://beagleboard.org/support/bone101&quot;&gt;BeagleBoard Black 101&lt;/a&gt; e 
+alguns componetes eletronicos, como resitores e LED’s.&lt;/p&gt;
+
+&lt;p&gt;A placa dar suporte a varios sistemas e linguagens de programação. O sistema escolhido foi o Debian e a linguegem C++, por motivos de afinidade.&lt;/p&gt;
+
+&lt;p&gt;Lista de componentes necassrios:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Computador ou notebook&lt;/li&gt;
+  &lt;li&gt;01 Kit BeagleBoard black 101&lt;/li&gt;
+  &lt;li&gt;01 Cartão micro SD&lt;/li&gt;
+  &lt;li&gt;01 Protoboard&lt;/li&gt;
+  &lt;li&gt;05 Push button&lt;/li&gt;
+  &lt;li&gt;01 Display de sete seguimentos&lt;/li&gt;
+  &lt;li&gt;05 Resistores de xOhm&lt;/li&gt;
+  &lt;li&gt;+-20 Jumpers para protoboard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;O primeiro passo, é instalar e configurar a BeagleBoard:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Baixar a imagem do Debian mais recente &lt;a href=&quot;https://beagleboard.org/latest-images&quot;&gt;aqui&lt;/a&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/Alex-Barros/IMG/master/ImgTopicosEngComp/img.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Baixar e instalar no programa &lt;a href=&quot;https://etcher.io/&quot;&gt;Etcher&lt;/a&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/Alex-Barros/IMG/master/ImgTopicosEngComp/etcher.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;insira o cartão SD na BeagleBoard&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Edite o arquivo “/boot/uEnv.txt” deixe da segunte forma:
+&lt;img src=&quot;https://raw.githubusercontent.com/Alex-Barros/IMG/master/ImgTopicosEngComp/edit.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ao final da operação de flashing, a placa ira desligar automaticamente. Você deve então, desconectar a alimentação e
+retirar o cartão SD. Após isso já pode ligar e usar a placa.
+&lt;img src=&quot;https://raw.githubusercontent.com/Alex-Barros/IMG/master/ImgTopicosEngComp/ligar.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O proximo passo é fazer as conexões dos componentes eletronicos e jumpers na BeagleBoard e protoboard seguindo o esquema da imagem abaixo:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FALTA A IMAGEM&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Após isso, seguimos para a Parte 2. Onde iremos tratar sobre o algoritmo do Genius.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;continue-acompanhando-ate-lá-o&quot;&gt;&lt;strong&gt;&lt;em&gt;Continue acompanhando. Ate lá!!! o/&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+</description>
+				<pubDate>Tue, 21 Aug 2018 00:00:00 -0300</pubDate>
+				<link>/general/demo/2018/08/21/sample4.html</link>
+				<guid isPermaLink="true">/general/demo/2018/08/21/sample4.html</guid>
+			</item>
+		
+	</channel>
+</rss>
